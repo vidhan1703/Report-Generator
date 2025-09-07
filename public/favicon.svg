@@ -1,0 +1,26 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Clipboard background -->
+  <rect x="64" y="32" width="384" height="448" rx="32" ry="32" fill="#CD7F5A" stroke="#A0522D" stroke-width="4"/>
+  
+  <!-- Clipboard paper -->
+  <rect x="96" y="80" width="320" height="352" rx="8" ry="8" fill="#F5F5F5" stroke="#E0E0E0" stroke-width="2"/>
+  
+  <!-- Clipboard clip -->
+  <rect x="192" y="16" width="128" height="48" rx="8" ry="8" fill="#9E9E9E" stroke="#757575" stroke-width="2"/>
+  <circle cx="256" cy="40" r="12" fill="#757575"/>
+  
+  <!-- Shield outline -->
+  <path d="M256 128 L320 160 L320 256 C320 320 256 384 256 384 C256 384 192 320 192 256 L192 160 Z" fill="#3F4B7A" stroke="#2C3E50" stroke-width="3"/>
+  
+  <!-- Shield inner -->
+  <path d="M256 144 L304 168 L304 248 C304 304 256 360 256 360 C256 360 208 304 208 248 L208 168 Z" fill="#F5F5F5"/>
+  
+  <!-- Shield quarters -->
+  <path d="M256 144 L256 360 C256 360 208 304 208 248 L208 168 Z" fill="#E8E8E8"/>
+  <path d="M256 144 L304 168 L304 248 C304 304 256 360 256 360 L256 144 Z" fill="#F1C40F"/>
+  <path d="M256 144 L256 252 L208 252 L208 168 Z" fill="#F39C12"/>
+  
+  <!-- Report lines -->
+  <rect x="128" y="416" width="256" height="8" rx="4" fill="#3F4B7A"/>
+  <rect x="128" y="440" width="192" height="8" rx="4" fill="#3F4B7A"/>
+</svg>

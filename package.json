@@ -1,0 +1,53 @@
+{
+  "name": "securevault-elite",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "SecureVault Elite is a comprehensive, enterprise-grade vulnerability research and penetration testing platform specifically designed for elite cybersecurity professionals, ethical hackers, security researchers, and enterprise security teams. This advanced platform revolutionizes vulnerability management by integrating real-time vulnerability intelligence from multiple authoritative sources including the National Vulnerability Database (NVD), Common Vulnerabilities and Exposures (CVE) databases, GitHub Security Advisories, Open Source Vulnerabilities (OSV), and numerous other critical security intelligence feeds. Built with cutting-edge modern technologies including React 19, TypeScript 5.0, and Tailwind CSS 3.4, the platform provides dynamic vulnerability discovery capabilities, AI-powered threat analysis, automated risk assessment, and professional-grade penetration testing report generation tools. The platform features sophisticated real-time API integration with over 15 major vulnerability databases, intelligent multi-source search algorithms, advanced customizable filtering systems, automated vulnerability correlation engines, and comprehensive report generation tools that support multiple export formats including PDF, Word, Excel, and JSON. SecureVault Elite dramatically streamlines the entire vulnerability assessment workflow by providing instant access to the latest global security intelligence, enabling security professionals to efficiently identify, analyze, prioritize, and document vulnerabilities across their entire infrastructure. With its intuitive user interface, powerful backend services, advanced caching mechanisms, and enterprise-grade security features, it serves as an indispensable tool for conducting thorough security assessments, generating professional penetration testing reports, maintaining up-to-date threat intelligence databases, and ensuring comprehensive security posture management for enterprise security operations. The platform supports advanced features including custom vulnerability templates, automated CVSS scoring, threat intelligence correlation, compliance reporting for standards like ISO 27001, NIST, and PCI DSS, making it the ultimate solution for elite cybersecurity professionals.",
+  "keywords": [
+    "vulnerability",
+    "security",
+    "penetration-testing",
+    "cybersecurity",
+    "react"
+  ],
+  "author": "SecureVault Pro Team",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.16",
+    "@vitejs/plugin-react": "^5.0.2",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.86.0",
+    "@types/node": "^24.3.1",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "axios": "^1.11.0",
+    "cheerio": "^1.1.2",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "framer-motion": "^12.23.12",
+    "lucide-react": "^0.542.0",
+    "moment": "^2.30.1",
+    "node-fetch": "^3.3.2",
+    "openai": "^5.19.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "xml2js": "^0.6.2"
+  }
+}
